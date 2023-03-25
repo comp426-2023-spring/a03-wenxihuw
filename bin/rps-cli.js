@@ -59,6 +59,6 @@ if (args._.length > 1) {
     process.exit(0);
 // }else if (args._.length === 0) {
 //   console.log(JSON.stringify(rps()))
-} else {
-  console.log(JSON.stringify(rps(...args._.slice(2))))
+// } else {
+//   console.log(JSON.stringify(rps(...args._.slice(2))))
 }
