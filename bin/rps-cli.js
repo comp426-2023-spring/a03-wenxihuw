@@ -33,7 +33,7 @@ if (args.r || args.rules) {
     process.exit(0);
 }
 
-if (args._.length > 1) {
+if (args._.length > 2) {
     console.error("Arguments out of range.");
     console.log(
         `
