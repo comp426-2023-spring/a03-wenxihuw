@@ -1,6 +1,7 @@
 {
   "name": "node-rpsls",
   "version": "1.0.0",
+  "type": "module",
   "description": "installable Node.js module package which contains command line games of \"Rock Paper Scissors\" (node-rps) and the more advanced version, \"Rock Paper Scissors Lizard Spock\" (node-rpsls)",
   "main": "./lib/rpsls.js",
   "scripts": {
