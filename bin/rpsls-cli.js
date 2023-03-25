@@ -73,11 +73,3 @@ if (args._.length > 3) {
 } else {
     console.log(JSON.stringify(rpsls(...args._.slice(2))))
 }
-
-// if (args._.length <= 2) {
-//     console.log(JSON.stringify(rpsls()))
-// } else if (args._.length > 3) {
-//     console.error("ERROR: arguments out of range")
-// } else {
-//     console.log(JSON.stringify(rpsls(...args._.slice(2))))
-// }
