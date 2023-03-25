@@ -40,7 +40,7 @@ if (args.r || args.rules) {
     process.exit(0);
 }
 
-if (args._.length > 1) {
+if (args._.length > 3) {
     console.error("Arguments out of range.");
     console.log(
         `
@@ -69,7 +69,7 @@ if (args._.length > 1) {
     );
     process.exit(0);
 }
-else if (args._.length == 0) {
+else if (args._.length <= 2) {
     console.log(JSON.stringify(rpsls()))
 } else {
     console.log(JSON.stringify(rpsls(...args._.slice(2))))
